@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+}
+.main-body{
+    width: 100%;
+    height: 100%;
+    background-color:#fff;
+}
+.top-head{
+    width: 100%;
+    height: 91px;
+}
+.logo{
+    float: left;
+    margin-left: 13%;
+    height: 91px;
+    width: auto
+}
+.top-right{
+    background-color: #213e5b;
+    width: 50%;
+    height: 45%;
+    float:right;
+    float:top;
+    transform: skew(20deg);
+}
+.top-green{
+    width: 100%;
+    height: 35px;
+    background-color: #709523;
+ 
+}
+.top-photo{
+    background-image: url(images/banner1.jpg);
+    width: 100%;
+    height:604px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.photo-green{
+
+   width: 100%;
+    height: 35px;
+    background-color: #709523;
+    float: left;
+    margin-top: -23px;
+
+}
+.opacity-bar{
+    background-color: rgb(33, 62, 91,0.6);
+    width: 100%;
+    height: 120px;
+    float: left;
+    margin-top: 505px;
+}
+.notification{
+    float:left;
+    height: 35px;
+    width: 170px;
+    background-color: #213e5b;
+    margin-left: 235px;
+  
+
+}
+.not{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.link{
+    text-decoration: none;
+}
+.wlcm-menu{
+    float:left;
+    width: 100%;
+    height: 100%;
+    padding-left: 240px;
+    
+    padding-top: 80px;
+}
+.green-text{
+    color: #709523;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    float:left;
+    letter-spacing: 0;
+}
+.blue-text{
+    color: #213e5b;
+    font-size: 26px;
+    font-weight: bold;
+    font-family:'Montserrat', 'Arial', sans-serif;
+    float:left;
+    margin-left:9px;
+    letter-spacing: 0;
+
+}
+.line{
+    float: left;
+    margin-left: 8px;
+    margin-top: 27px;
+    opacity: 20%;
+}
+.text{
+    float: left;
+    text-align: justify;
+    font-size: 17px;
+    font-family:ui-monospace;
+    display: block;;
+    opacity: 70%;
+
+}
+.facts-menu{
+    float:left;
+    width: 100%;
+    height: 100%;
+    padding-left: 240px;
+    
+    padding-top: 20px;
+}
