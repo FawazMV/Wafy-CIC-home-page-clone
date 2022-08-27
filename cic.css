@@ -10,7 +10,7 @@ body{
     width: 100%;
     height: 91px;
 }
-.logo{
+.logoimg{
     float: left;
     margin-left: 13%;
     height: 91px;
@@ -19,16 +19,43 @@ body{
 .top-right{
     background-color: #213e5b;
     width: 50%;
-    height: 45%;
+    height:40px;
     float:right;
     float:top;
-    transform: skew(20deg);
+    transform: skew(40deg);
 }
+.right-block{
+    margin-left: 120px;
+    margin-top: 13px;
+    width: 60%;
+    height: 20px;
+    float:left;
+    transform: skew(320deg);
+}
+.login{
+    float:left;
+    margin-left: 15%;
+}
+
 .top-green{
     width: 100%;
     height: 35px;
     background-color: #709523;
  
+}
+.green-flex{
+    width: 60%;
+    margin-left: 40%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.home{
+    font-family: serif;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bolder;
 }
 .top-photo{
     background-image: url(images/banner1.jpg);
@@ -52,6 +79,31 @@ body{
     height: 120px;
     float: left;
     margin-top: 505px;
+}
+.outer-white-notification{
+    display: flex;
+    margin-top:3px;
+    width: 50%;
+    margin-left: 25%;
+    justify-content: space-around;
+    
+}
+.white{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+    float: left;
+    width: 91px;
+    height: 91px;
+    background-color: #fff;
+    cursor: pointer;
+    color: #a0ce4e;
+    font-weight: bolder;
+}
+.white:hover{
+    background-color: #a0ce4e;
+    color: #fff;
 }
 .notification{
     float:left;
@@ -77,8 +129,7 @@ body{
     float:left;
     width: 100%;
     height: 100%;
-    padding-left: 240px;
-    
+    margin-left: 240px;
     padding-top: 80px;
 }
 .green-text{
@@ -118,7 +169,7 @@ body{
     float:left;
     width: 100%;
     height: 100%;
-    padding-left: 240px;
+    margin-left: 240px;
     
     padding-top: 20px;
 }
@@ -134,7 +185,7 @@ body{
     float:left;
     width: 100%;
     height: 100%;
-    padding-left: 240px;
+    margin-left: 240px;
     
     padding-top: 10px;
 
@@ -156,7 +207,7 @@ body{
     float: left;
     height: 290px;
     width: 235px;
-    margin-right: 42px;
+    margin-right: 39px;
     text-align: center;
 
     
@@ -222,6 +273,112 @@ body{
     margin-top: 70px;
     float: left;
     width: 100%;
-    height: 400px;
-    background-color: #212529;
+    height: 460px;
+    background-color: #222f3f;  
+    display: flex;
+    align-content: space-around;
+    justify-content:flex-start;
+    align-items: center;
+}
+.footdiv{
+    height: 300px;
+    width: 180px;
+    display: flex;
+    flex-direction: column; 
+    margin-left: 10px;
+    justify-content: space-between;
+
+}
+.location{
+    margin-left: 230px;
+    height: 320px;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+.foot-head-text{
+    font-size: 15px;
+    font-weight: lighter;
+    color: #fff;
+
+}
+.foot-text{
+    color: #fff;
+    font-size: 14px;
+    font-weight: lighter;
+    opacity: 70%;
+    margin-top: 0%;
+    
+
+}
+.about-text{
+    font-size: 19px;
+    font-weight: bolder;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.foot-text-about:hover{
+    color: #a0ce4e;
+}
+.foot-text-about{
+    font-weight: 100;
+    font-family: cursive;
+}
+.foot-end{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    float: left;
+    
+    height: 80px;
+    margin: 0%;
+    padding: 0%;
+
+}
+.last{
+    color: #fff;
+    margin-top: 0%;
+}
+.logo{
+    width: 15px;
+    height: auto;
+    opacity: 90%;
+}
+.logo-div{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    align-items:center;
+    justify-content: space-between;
+    margin-left: 225px;
+
+
+
+}
+.logo-only{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    justify-content: space-around;
+
+}
+.foot--text{
+    color: #fff;
+    font-size: 14px;
+    font-weight: lighter;
+    opacity: 70%;
+}
+.foot-end .link{
+    border-left: 1px solid #fff;
+    opacity: 70%;
+    padding-left: 25px;
+    margin-left:  25px;
+    height: 15px;
+}
+.logo-div .foot-head-text{
+    margin-left: 170px;
 }
